@@ -147,7 +147,7 @@ public class Simulator {
 
     public static void main(String[] args) {
         if (args.length != 1) {
-            System.out.println("error: usage: java SMC <machine-code file>");
+            System.out.println("error: usage: SMC <machine-code file>");
             System.exit(1);
         }
 
